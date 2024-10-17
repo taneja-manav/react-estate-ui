@@ -1,6 +1,6 @@
 import "./layout1.scss"
-import { Outlet } from "react-router-dom"
-import Navbar from navbar
+import { Outlet } from "react-router-dom";
+import Navbar from "./navbar";
 
 function Layout(){
     return (

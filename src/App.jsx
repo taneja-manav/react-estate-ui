@@ -8,12 +8,18 @@ import {
   
 } from "react-router-dom";
 import ListPage from "./listpage.jsx";
+import Layout from "./layout1.jsx";
 
 
 
 function App() {
 
   const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout/>,
+      children: [
+    
     {
       path: "/",
       element: (
@@ -24,6 +30,8 @@ function App() {
       path: "/list",
       element: <ListPage/>,
     },
+      ]
+  }
   ]);
 
   return (
