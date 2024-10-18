@@ -1,0 +1,20 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1{
+        font-weight: 300;
+        font-size: 24px;
+        gap: 2;
+
+        label{
+            font-style: 10px;
+        }
+
+        input,select{
+            width:100px;
+            padding: 10px;
+            border:1px solid #e0e0e0;
+        }
+    }
+}
