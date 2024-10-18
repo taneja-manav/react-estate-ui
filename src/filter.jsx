@@ -61,49 +61,6 @@ function Filter(){
                     id="bedroom" 
                     name="bedroom" 
                     placeholder="any" 
-=======
-                    <input 
-                    type="text"
-                    id="city" 
-                    name="city" 
-                    placeholder="City Location" 
-                    />
-                </div>
-                <div className="item">
-                    <label htmlFor="city">Location</label>
-                    <input 
-                    type="text"
-                    id="city" 
-                    name="city" 
-                    placeholder="City Location" 
-                    />
-                </div>
-                <div className="item">
-                    <label htmlFor="city">Location</label>
-                    <input 
-                    type="text"
-                    id="city" 
-                    name="city" 
-                    placeholder="City Location" 
-                    />
-                </div>
-                <div className="item">
-                    <label htmlFor="city">Location</label>
-                    <input 
-                    type="text"
-                    id="city" 
-                    name="city" 
-                    placeholder="City Location" 
-                    />
-                </div>
-                <div className="item">
-                    <label htmlFor="city">Location</label>
-                    <input 
-                    type="text"
-                    id="city" 
-                    name="city" 
-                    placeholder="City Location" 
->>>>>>> 983270ce94063c197b6d241d00ead7408e6ed029
                     />
                 </div>
                 <button>
