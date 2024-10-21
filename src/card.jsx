@@ -12,8 +12,32 @@ function Card({item}){
                     <Link to={'/${item.id}'}>{item.title}</Link>
                 </h2>
                 <p className="address">
-                    <img src="" alt="" />
+                    <img src="pin.png" alt="" />
+                    <span>{item.address}</span>
                 </p>
+                <p className="price">
+                    ${item.price}
+                </p>
+                <div className="bottom">
+                    <div className="features">
+                        <div className="feature">
+                            <img src="bed.png"></img>
+                            <span>{item.bedroom} bedroom</span>
+                        </div>
+                        <div className="feature">
+                            <img src="bath.png"></img>
+                            <span>{item.bathroom} bathroom</span>
+                        </div>
+                    </div>
+                    <div className="icons">
+                        <div className="icon">
+                            <img src="save.png"/>
+                        </div>
+                        <div className="icon">
+                            <img src="chat.png"/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
