@@ -2,17 +2,23 @@
     display: flex;
     height: 100%;
 
-    .listconatiner{
+    .listcontainer{
         flex:3;
+
     
       .wrapper{
         padding-right: 50px;
-
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        overflow-y: scroll;
        }
     }
     .mapcontainer{
         flex:2;
         background-color : #fcf5f3;
+        width: auto;
+
     }
 
     

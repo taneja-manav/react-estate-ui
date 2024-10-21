@@ -2,19 +2,56 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+
     h1{
         font-weight: 300;
         font-size: 24px;
-        gap: 2;
+        
+    }
+
+    .item{
+        display: flex;
+        flex-direction:column;
+        gap:2;
 
         label{
-            font-style: 10px;
+            font-size: 20px;
         }
 
         input,select{
             width:100px;
-            padding: 10px;
+            padding:10px;
             border:1px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    }
+
+    .top{
+        gap: 10px;
+        input{
+            width: 100%;
+        }
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        button{
+            width: 100px;
+            padding: 10px;
+            bottom: none;
+            cursor: pointer;
+            background-color: #fece51;
+            border:1px solid #e0e0e0;
+            margin-top: 10px;
+
+            img{
+                width: 24px;
+                height: 24px;
+            }
         }
     }
 }

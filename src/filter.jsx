@@ -1,4 +1,4 @@
-import "./filter.scss"
+import "./filter.scss";
 
 function Filter(){
     return (
@@ -19,7 +19,7 @@ function Filter(){
                 <div className="bottom">
                 <div className="item">
                     <label htmlFor="type">type</label>
-<<<<<<< HEAD
+
                    <select name ="type" id="type">
                     <option value="any">Any</option>
                     <option value="buy">buy</option>
@@ -72,4 +72,4 @@ function Filter(){
     )
 }
 
-export default Filter
+export  default Filter

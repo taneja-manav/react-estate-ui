@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    gap: 20px;
+
+    .imgcontainer{
+      flex:2;
+      height:200px;
+
+      img{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+    }
+
+
+
+    .textcontainer{
+        flex:3;
+
+
+    }
+}
