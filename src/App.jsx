@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import ListPage from "./listpage.jsx";
 import Layout from "./layout1.jsx";
+import SinglePage from "./singlepage.jsx";
+import Profilepage from "./profilepage.jsx";
 
 
 
@@ -22,14 +24,21 @@ function App() {
     
     {
       path: "/",
-      element: (
-       <HomePage/>
-      ),
+      element: <HomePage/>
+      
     },
     {
       path: "/list",
       element: <ListPage/>,
     },
+    {
+      path:"/:id",
+      element:<SinglePage/>
+    },
+    {
+      path:"/profile",
+      element:<Profilepage/>
+    }
       ]
   }
   ]);
